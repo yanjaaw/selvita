@@ -6,7 +6,7 @@ export default function Faq() {
         <div>
           <h3 className="text-2xl mb-2">How much is the minting price?</h3>
           <p>
-            0.01 MATIC
+            100 MATIC
           </p>
         </div>
         <div>

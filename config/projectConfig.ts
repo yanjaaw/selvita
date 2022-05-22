@@ -1,5 +1,5 @@
 const projectConfig = {
-  nftName: 'Why the Amazon?',
+  nftName: 'SELVA',
 
   nftSymbol: 'SIL',
 
