@@ -3,9 +3,7 @@ import Image from 'next/image';
 import { useEffect } from 'react';
 import { useWeb3React } from '@web3-react/core';
 import Jazzicon, { jsNumberForAddress } from 'react-jazzicon';
-import { FaTwitter, FaDiscord, FaShip, FaInfinity } from 'react-icons/fa';
-
-import ConnectButton from './ConnectButton';
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 import Container from './Container';
 import NextLink from './NextLink';
 import projectConfig from '../config/projectConfig';
