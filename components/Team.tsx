@@ -7,8 +7,7 @@ export default function Team() {
     <div className="text-center">
       <h2 className="text-2xl text-gray-100 mb-4">Made by</h2>
       <Image
-        src={Creator}
-        alt="Koji Mochizuki"
+        src={'https://link.us1.storjshare.io/raw/jx3y3skg2hjy4suzwskjmhjbfv5a/cakes/bubbles.jpeg'}
         width={200}
         height={200}
         className="rounded-full"

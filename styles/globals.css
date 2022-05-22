@@ -6,6 +6,6 @@
   h1,
   h2,
   h3 {
-    @apply text-pink-500;
+    @apply text-green-500;
   }
 }
