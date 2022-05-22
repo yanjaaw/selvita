@@ -33,7 +33,7 @@ export default function Header() {
 
   return (
     <div className="sticky top-0 z-50">
-      <header className="bg-white-900 border-b py-2">
+      <header className="bg-transparent border-b py-2">
         <Container>
           <div className="flex justify-between items-center">
             <NextLink href="/" className="text-lg font-bold text-white">
