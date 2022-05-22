@@ -17,6 +17,9 @@ const Home: NextPage = () => {
       <Head>
         <title>{projectConfig.nftName}</title>
       </Head>
+      <Head>
+        <title>NFTs</title>
+      </Head>
 
       <Image src={topImage} alt={projectConfig.nftName} />
 

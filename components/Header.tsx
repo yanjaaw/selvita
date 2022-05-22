@@ -38,17 +38,32 @@ export default function Header() {
       <header className="bg-gray-900 border-b py-2">
         <Container>
           <div className="flex justify-between items-center">
-            <NextLink href="/" className="text-2xl font-bold text-white">
+            <NextLink href="/" className="text-lg font-bold text-white">
               <span className="flex items-center">
                 <Image
                   src={Logo}
                   alt={projectConfig.nftName}
-                  width={35}
-                  height={35}
+                  width={160}
+                  height={80}
                   className="rounded-full"
                 />
                 <span className="hidden sm:block ml-2">
-                  {projectConfig.nftName}
+                  Why the Amazon?
+                </span>
+                <span className="hidden sm:block ml-2">
+                  NFTs
+                </span>
+                <span className="hidden sm:block ml-2">
+                  Web3xNature
+                </span>
+                <span className="hidden sm:block ml-2">
+                  Our mission
+                </span>
+                <span className="hidden sm:block ml-2">
+                  FAQ
+                </span>
+                <span className="hidden sm:block ml-2">
+                  Contact
                 </span>
               </span>
             </NextLink>
@@ -61,51 +76,6 @@ export default function Header() {
                 effect="solid"
                 textColor="#e2e8f0"
               />
-              <a
-                href={projectConfig.twitterUrl}
-                aria-label={`${projectConfig.nftName} on Twitter`}
-                rel="noopener noreferrer"
-                target="_blank"
-                data-tip="Twitter"
-                data-for="header"
-                className="bg-gray-700 hover:bg-gray-600 rounded-full p-2"
-              >
-                <FaTwitter />
-              </a>
-              <a
-                href={projectConfig.discordUrl}
-                aria-label={`${projectConfig.nftName} on Discord`}
-                rel="noopener noreferrer"
-                target="_blank"
-                data-tip="Discord"
-                data-for="header"
-                className="bg-gray-700 hover:bg-gray-600 rounded-full p-2"
-              >
-                <FaDiscord />
-              </a>
-              <a
-                href={projectConfig.openseaCollectionUrl}
-                aria-label={`${projectConfig.nftName} on OpenSea`}
-                rel="noopener noreferrer"
-                target="_blank"
-                data-tip="OpenSea"
-                data-for="header"
-                className="bg-gray-700 hover:bg-gray-600 rounded-full p-2"
-              >
-                <FaShip />
-              </a>
-              <a
-                href={projectConfig.scanUrl}
-                aria-label={`Contract of ${projectConfig.nftName}`}
-                rel="noopener noreferrer"
-                target="_blank"
-                data-tip="PolygonScan"
-                data-for="header"
-                className="bg-gray-700 hover:bg-gray-600 rounded-full p-2"
-              >
-                <FaInfinity />
-              </a>
-
               {active && account ? (
                 <span className="flex items-center space-x-2 p-2 bg-gray-700 rounded-full">
                   <Jazzicon
