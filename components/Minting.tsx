@@ -104,7 +104,7 @@ export default function Minting() {
     <>
       <h2 className="text-4xl mb-4">Minting</h2>
 
-      <div className="bg-gray-800 border border-t-red-300 border-r-blue-300 border-b-green-300 border-l-yellow-300 rounded p-8 space-y-4">
+      <div className="bg-white-800 border border-t-red-300 border-r-blue-300 border-b-green-300 border-l-yellow-300 rounded p-8 space-y-4">
         <div className="text-3xl font-bold text-center">
           <span className="text-pink-500">{totalSupply}</span> /{' '}
           {projectConfig.maxSupply}
@@ -115,14 +115,14 @@ export default function Minting() {
             Total price: {projectConfig.mintCost * mintAmount}{' '}
             {projectConfig.chainName}
           </p>
-          <p className="text-gray-400">(excluding gas fees)</p>
+          <p className="text-black-400">(excluding gas fees)</p>
         </div>
 
         <div className="flex justify-center items-center space-x-4">
           <IconContext.Provider value={{ size: '1.5em' }}>
             <button
               type="button"
-              className={mintAmount <= 1 ? 'text-gray-500 cursor-default' : ''}
+              className={mintAmount <= 1 ? 'text-black-500 cursor-default' : ''}
               onClick={decrementMintAmount}
               disabled={false}
             >
@@ -133,7 +133,7 @@ export default function Minting() {
               type="button"
               className={
                 mintAmount >= projectConfig.maxMintAmountPerTxn
-                  ? 'text-gray-500 cursor-default'
+                  ? 'text-black-500 cursor-default'
                   : ''
               }
               onClick={incrementMintAmount}
@@ -190,7 +190,7 @@ export default function Minting() {
           ) : (
             <button
               type="button"
-              className={`rounded px-4 py-2 bg-gray-700 font-bold w-40 cursor-not-allowed`}
+              className={`rounded px-4 py-2 bg-white-700 font-bold w-40 cursor-not-allowed`}
               disabled={true}
               onClick={mintNFTs}
             >
@@ -205,7 +205,7 @@ export default function Minting() {
         )}
       </div>
 
-      <div className="text-gray-400 mt-2">
+      <div className="text-black-400 mt-2">
         Please make sure you are connected to the correct address and the
         correct network ({projectConfig.networkName}) before purchasing. The
         operation cannot be undone after purchase.

@@ -38,7 +38,7 @@ export default function ConnectButton() {
       {isConnecting ? (
         <button
           type="button"
-          className="flex justify-center items-center border-2 border-gray-500 bg-gray-800 rounded-full px-4 py-2 w-40 cursor-not-allowed"
+          className="flex justify-center items-center border-2 border-gray-500 bg-white-800 rounded-full px-4 py-2 w-40 cursor-not-allowed"
           disabled
         >
           <svg
@@ -66,7 +66,7 @@ export default function ConnectButton() {
       ) : (
         <button
           type="button"
-          className="flex justify-center items-center space-x-2 border-2 border-gray-500 hover:border-gray-400 bg-gray-800 rounded-full px-4 py-2 w-40"
+          className="flex justify-center items-center space-x-2 border-2 border-gray-500 hover:border-gray-400 bg-white-800 rounded-full px-4 py-2 w-40"
           onClick={connectMetaMask}
         >
           <FaWallet />

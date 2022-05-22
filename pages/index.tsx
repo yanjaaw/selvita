@@ -10,6 +10,7 @@ import Roadmap from '../components/Roadmap';
 import Team from '../components/Team';
 import projectConfig from '../config/projectConfig';
 import topImage from '../public/assets/SKY.jpeg';
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 const Home: NextPage = () => {
   return (
@@ -23,8 +24,9 @@ const Home: NextPage = () => {
 
       <Image src={topImage} alt={projectConfig.nftName} />
 
-      <div className="bg-gray-800 py-8">
+      <div className="bg-white-800 py-8">
         <Prose>
+        <ConnectButton />
           <h1 className="text-5xl font-bold mb-2">{projectConfig.nftName}</h1>
           <p className="text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -44,7 +46,7 @@ const Home: NextPage = () => {
         </Prose>
       </div>
 
-      <div className="bg-gray-800 py-8">
+      <div className="bg-white-800 py-8">
         <Prose>
           <Faq />
         </Prose>
@@ -56,7 +58,7 @@ const Home: NextPage = () => {
         </Prose>
       </div>
 
-      <div className="bg-gray-800 py-8">
+      <div className="bg-white-800 py-8">
         <Prose>
           <Team />
         </Prose>

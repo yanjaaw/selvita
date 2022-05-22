@@ -35,7 +35,7 @@ export default function Header() {
 
   return (
     <div className="sticky top-0 z-50">
-      <header className="bg-gray-900 border-b py-2">
+      <header className="bg-white-900 border-b py-2">
         <Container>
           <div className="flex justify-between items-center">
             <NextLink href="/" className="text-lg font-bold text-white">
@@ -77,7 +77,7 @@ export default function Header() {
                 textColor="#e2e8f0"
               />
               {active && account ? (
-                <span className="flex items-center space-x-2 p-2 bg-gray-700 rounded-full">
+                <span className="flex items-center space-x-2 p-2 bg-white-700 rounded-full">
                   <Jazzicon
                     diameter={32}
                     seed={jsNumberForAddress(account.toLowerCase())}

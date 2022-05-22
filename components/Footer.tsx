@@ -39,7 +39,7 @@ export default function Footer() {
               aria-label="Home"
               data-tip="Home"
               data-for="footer"
-              className="bg-gray-700 hover:bg-gray-600 rounded-full p-2"
+              className="bg-white-700 hover:bg-white-600 rounded-full p-2"
             >
               <FaHome />
             </NextLink>
@@ -50,7 +50,7 @@ export default function Footer() {
               target="_blank"
               data-tip="Twitter"
               data-for="footer"
-              className="bg-gray-700 hover:bg-gray-600 rounded-full p-2"
+              className="bg-white-700 hover:bg-white-600 rounded-full p-2"
             >
               <FaTwitter />
             </a>
@@ -61,7 +61,7 @@ export default function Footer() {
               target="_blank"
               data-tip="Discord"
               data-for="footer"
-              className="bg-gray-700 hover:bg-gray-600 rounded-full p-2"
+              className="bg-white-700 hover:bg-white-600 rounded-full p-2"
             >
               <FaDiscord />
             </a>
@@ -72,7 +72,7 @@ export default function Footer() {
               target="_blank"
               data-tip="OpenSea"
               data-for="footer"
-              className="bg-gray-700 hover:bg-gray-600 rounded-full p-2"
+              className="bg-white-700 hover:bg-white-600 rounded-full p-2"
             >
               <FaShip />
             </a>
@@ -83,7 +83,7 @@ export default function Footer() {
               target="_blank"
               data-tip="PolygonScan"
               data-for="footer"
-              className="bg-gray-700 hover:bg-gray-600 rounded-full p-2"
+              className="bg-white-700 hover:bg-white-600 rounded-full p-2"
             >
               <FaInfinity />
             </a>
