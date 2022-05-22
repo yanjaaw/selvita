@@ -1,9 +1,9 @@
 const projectConfig = {
-  nftName: 'SkullsInLove',
+  nftName: 'SELVA',
 
   nftSymbol: 'SIL',
 
-  maxSupply: 10000,
+  maxSupply: 5000,
 
   maxMintAmountPerTxn: 10,
 
